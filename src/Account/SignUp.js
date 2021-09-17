@@ -8,7 +8,7 @@ export default class SignUp extends React.Component
             <div className="container mt-5 pt-4">
                 <h1 className="mb-4">Sign Up to benefit the latest features</h1>
                 <h2 className="mb-4">You can do it using your Google account too.</h2>
-                <form className="row" onSubmit={this.handleSubmit}>
+                <form className="row " onSubmit={this.handleSubmit}>
                     <div class="col-s-12 col-md-6 col-lg-4">
                         <div className="bg-dark text-white p-4 rounded-3">
                             <label for="email">Email</label>
