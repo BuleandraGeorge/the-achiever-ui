@@ -8,6 +8,8 @@ import Checkout from './Checkout/Checkout.js';
 import Message from './Checkout/Message.js';
 import GoalDetails from './Goals/GoalDetails';
 import AddGoal from './Goals/AddGoal';
+import SignUp from  './Account/SignUp.js'
+
 
 import {
     Switch,
@@ -46,6 +48,9 @@ export default class App extends React.Component
                     </Route>
                     <Route path="/add-goal">
                         <AddGoal />
+                    </Route>
+                    <Route path="/sign-un">
+                        <SignUp />
                     </Route>
                 </Switch>
             </div>
