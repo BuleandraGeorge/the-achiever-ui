@@ -49,7 +49,7 @@ export default class App extends React.Component
                     <Route path="/add-goal">
                         <AddGoal />
                     </Route>
-                    <Route path="/sign-un">
+                    <Route path="/sign-up">
                         <SignUp />
                     </Route>
                 </Switch>
