@@ -21,7 +21,7 @@ export default class Login extends React.Component
                         </div>
                     </div>
                     <h2 className="mt-4 text-center">
-                        Haven't got an account, then sign up <a className="link-warning text-decoration-none" href="/sign-up">here</a>.
+                        Haven't got an account yet? Sign up <a className="link-warning text-decoration-none" href="/sign-up">here</a>.
                     </h2>
                 </form>
             </div>

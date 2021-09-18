@@ -12,7 +12,7 @@ export default class GoalDetails extends React.Component
                 {
                     id:1,
                     content:"Consectetur ad proident eu aliqua aliquip Lorem eu.",
-                    done:false
+                    done:true
                 },
                 {
                     id:2,
